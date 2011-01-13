@@ -27,3 +27,10 @@ local.properties
 # CDT-specific
 .cproject
 
+# Linux files
+.*
+*~
+*.sw[a-p]
+# KDE
+.directory
+
