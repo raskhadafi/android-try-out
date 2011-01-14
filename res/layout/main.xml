@@ -3,10 +3,30 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:focusable="true"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/address"
+	    android:background="@color/background_color"
+	    android:textStyle="bold"
+	    android:focusable="true"
+	    android:textColor="@color/address_text"
+	android:clickable="true"/>
+	<ListView 
+		  android:id="@android:id/list"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	/>
+	<TextView 
+	      android:id="@android:id/empty"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="@string/no_notes"
+	      android:textColor="@color/no_notes"
+	      android:textSize="@dimen/no_notes"
+	      android:textStyle="bold"
+	 />
 </LinearLayout>

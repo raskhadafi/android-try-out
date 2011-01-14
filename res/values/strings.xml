@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, Notepad!</string>
-    <string name="app_name">Notepad</string>
+	<!-- Strings -->
+    <string name="app_name">Redmine CyT GmbH</string>
+    <string name="address">
+    	CyT GmbH\n
+    	CH-6300 Zug\n
+    	Rails and Android Development\n
+    	Click here to call us!
+    </string>
+    <string name="no_notes">Keine Einträge</string>
+    <string name="add_note">Eintrag hinzufügen</string>
+    <string name="delete_note">Eintrag löschen</string>
+    <string name="edit_note">Eintrag bearbeiten</string>
+    <string name="confirm_save_note">speichern</string>
+    <string name="body">Text</string>
+	<string name="title">Titel</string>
+    <!-- Colors -->
+    <color name="background_color">#7E0D3B</color>
+    <color name="address_text">#72706E</color>
+    <color name="divider">#72706E</color>
+    <color name="no_notes">#329F32</color>
+    <!-- Dimensions -->
+    <dimen name="no_notes">40px</dimen>
+    <dimen name="note">40px</dimen>
 </resources>
